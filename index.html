@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/img favicon.ico">
+    <title>Fenrir Tech | House of Gamer | Expertos en tecnologia | Todo Lo que buscas</title>
+    <!--css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<header class="container-fluid bg-dark position-sticky top-0">
+    <ul class="nav nav-pills mb-3 py-3 container" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a class="nav-link " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Inicio</a>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Productos</a>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Carrito</a>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false" disabled>Disabled</a>
+        </li>
+      </ul>
+    </header>
+
+      <div class="alert container position-sticky top-0 alert-primary hide" role="alert">
+          Añadiste el Producto al Carrito!
+      </div>
+
+      <div class="alert container position-sticky top-0 alert-danger remove" role="alert">
+        Retiraste el Producto del Carrito!
+      </div>
+      
+      <div class="tab-content" id="pills-tabContent">
+        
+        <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">1</div>
+        
+        <!--- Productos -->
+        <div class="tab-pane fade show active container" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+            <h2 class="h4 m-4 text-primary">Productos</h2>
+
+            <div class="row row-cols-sm-1 row row-cols-md-2 row row-cols-lg-3 row row-cols xl-4">
+                
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title pt-2 text-center text-primary">Asus Gaming VG248QG 24</h5>
+                        <img src="./img/Asus Gaming VG248QG 24.jpg" class="card-img-top" alt="contiene monitor Asus Gaming VG248QG 24">
+                        <div class="card-body">
+                            <p class="card-text text-white-50 description">Monitor de gaming Full HD de 24” con 165 Hz de refresco tecnología Adaptive-Sync</p>
+                          <h5 class="text-primary">Precio: <span class="precio">$ 134990</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Añadir a carrito</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title pt-2 text-center text-primary">Hyperx Cloud II 7.1 wireless</h5>
+                        <img src="./img/AURICULAR INALAMBRICO HYPERX CLOUD II 7.1 WIRELESS.jpg" class="card-img-top" alt="contiene auricular Hyperx Cloud II 7.1 wireless">
+                        <div class="card-body">
+                            <p class="card-text text-white-50 description">HyperX Cloud fue diseñado para ser un auricular ultracómodo para juegos con un sonido increíble.</p>
+                          <h5 class="text-primary">Precio: <span class="precio">$ 32441</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Añadir a carrito</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title pt-2 text-center text-primary">Cargador hyperx para joystick ps5</h5>
+                        <img src="./img/CARGADOR PARA JOYSTICK HYPERX CHARGEPLAY PORTATIL DUO PS5.png" class="card-img-top" alt=" contiene Cargador hyperx para joystick ps5">
+                        <div class="card-body">
+                            <p class="card-text text-white-50 description">Carga tus controles de forma rápida y sencilla con el soporte de carga doble de Verbatim.</p>
+                          <h5 class="text-primary">Precio: <span class="precio">$ 12999</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Añadir a carrito</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title pt-2 text-center text-primary">Auricular Inalambrico Philips bluetooth</h5>
+                        <img src="./img/AURICULAR INALAMBRICO PHILIPS BLUETOOTH TRUE WIRELESS.png" class="card-img-top" alt="contiene Auricular Inalambrico Philips bluetooth">
+                        <div class="card-body">
+                            <p class="card-text text-white-50 description"> ideales para acompañarte a la hora de hacer ejercicio mientras te sumergís en el mejor sonido envolvente.</p>
+                          <h5 class="text-primary">Precio: <span class="precio">$ 11999</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Añadir a carrito</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+                
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title pt-2 text-center text-primary">Corsair ICUE 4000x</h5>
+                        <img src="./img/Corsair ICUE 4000x.png" class="card-img-top" alt="contiene Corsair ICUE 4000x">
+                        <div class="card-body">
+                            <p class="card-text text-white-50 description">canales de ventilación frontal específicos para lograr un amplio flujo de aire.</p>
+                          <h5 class="text-primary">Precio: <span class="precio">$ 48637</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Añadir a carrito</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+                
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title pt-2 text-center text-primary">Disco solido SSD 960GB Kingston SATA III A400</h5>
+                        <img src="./img/DISCO SOLIDO SSD 960GB KINGSTON SATA III A400-2.jpg" class="card-img-top" alt="contiene Disco solido SSD 960GB Kingston SATA III A400">
+                        <div class="card-body">
+                            <p class="card-text text-white-50 description">Las unidades de estado sólido  funcionan de forma más rápida, silenciosa y fría.</p>
+                          <h5 class="text-primary">Precio: <span class="precio">$ 21964</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Añadir a carrito</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+                
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title pt-2 text-center text-primary">Fan Cooler CPU Thermaltake ux200 ARGB</h5>
+                        <img src="./img/FAN COOLER CPU THERMALTAKE UX200 ARGB.png" class="card-img-top" alt="contiene Fan Cooler CPU Thermaltake ux200 ARGB">
+                        <div class="card-body">
+                            <p class="card-text text-white-50 description">alto flujo de aire, y los tubos de calor de cobre en forma de “U”.</p>
+                          <h5 class="text-primary">Precio: <span class="precio">$ 12400</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Añadir a carrito</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+                
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title pt-2 text-center text-primary">Disco Solido SSD 1TB Patriot M2 2280 NVME VPR100 RGB</h5>
+                        <img src="./img/DISCO SOLIDO SSD 1TB PATRIOT M2 2280 NVME VPR100 RGB.jpg" class="card-img-top" alt=" contieneDisco Solido SSD 1TB Patriot M2 2280 NVME VPR100 RGB">
+                        <div class="card-body">
+                            <p class="card-text text-white-50 description">la primera sincronización de aplicaciones RGB del mundo, SSD M.2 PCIe Gen3 x4 de alto rendimiento.</p>
+                          <h5 class="text-primary">Precio: <span class="precio">$ 33639</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Añadir a carrito</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+                   
+                <div class="col d-flex justify-content-center mb-4">
+                  <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                      <h5 class="card-title pt-2 text-center text-primary">Fuente Cooler Master 750W V2 80+ Gold Full Modular</h5>
+                      <img src="./img/FUENTE COOLER MASTER 750W V2 80+ GOLD FULL MODULAR.jpg" class="card-img-top" alt=" contiene Disco Fuente Cooler Master 750W V2 80+ Gold Full Modular">
+                      <div class="card-body">
+                          <p class="card-text text-white-50 description">fuente de alimentación ofrece una eficiencia constante, bajas temperaturas y un funcionamiento silencioso.</p>
+                        <h5 class="text-primary">Precio: <span class="precio">$ 31990</span></h5>
+                        <div class="d-grid gap-2">
+                        <button class="btn btn-primary button">Añadir a carrito</button>
+                      </div>
+                      </div>
+                    </div>
+              </div>
+                 
+              <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                    <h5 class="card-title pt-2 text-center text-primary">Logitech G G815 Carbon</h5>
+                    <img src="./img/LOGITECH G G815 CARBON.png" class="card-img-top" alt=" contiene Logitech G G815 Carbon">
+                    <div class="card-body">
+                        <p class="card-text text-white-50 description">Diseño ultrafino. RGB LIGHTSYNC y teclas G específicas.</p>
+                      <h5 class="text-primary">Precio: <span class="precio">$ 26990</span></h5>
+                      <div class="d-grid gap-2">
+                      <button class="btn btn-primary button">Añadir a carrito</button>
+                    </div>
+                    </div>
+                 </div>
+              </div>   
+                 
+              <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                    <h5 class="card-title pt-2 text-center text-primary">Memoria RAM DDR4 8GB 3200MHZ Patriot Viper Steel RGB Black CL18</h5>
+                    <img src="./img/MEMORIA RAM DDR4 8GB 3200MHZ PATRIOT VIPER STEEL RGB BLACK CL18.jpg" class="card-img-top" alt=" contiene Memoria RAM DDR4 8GB 3200MHZ Patriot Viper Steel RGB Black CL18">
+                    <div class="card-body">
+                        <p class="card-text text-white-50 description">proporciona el mejor rendimiento y estabilidad, así como las dimensiones más coloridas.</p>
+                      <h5 class="text-primary">Precio: <span class="precio">$ 17990
+                      </span></h5>
+                      <div class="d-grid gap-2">
+                      <button class="btn btn-primary button">Añadir a carrito</button>
+                    </div>
+                    </div>
+                 </div>
+              </div>
+                    
+              <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                    <h5 class="card-title pt-2 text-center text-primary">Microfono HyperX Quadcast S PC PS4</h5>
+                    <img src="./img/MICROFONO HYPERX QUADCAST S PC PS4.jpg" class="card-img-top" alt=" contiene Microfono HyperX Quadcast S PC PS4">
+                    <div class="card-body">
+                        <p class="card-text text-white-50 description">uno de los mejores micrófonos gamer en el área y perfectamente compatible con PC, Mac y PS4.</p>
+                      <h5 class="text-primary">Precio: <span class="precio">$ 62569</span></h5>
+                      <div class="d-grid gap-2">
+                      <button class="btn btn-primary button">Añadir a carrito</button>
+                    </div>
+                    </div>
+                 </div>
+              </div>
+                            
+              <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                    <h5 class="card-title pt-2 text-center text-primary">Mouse HyperX Pulsfire DART RGB</h5>
+                    <img src="./img/MOUSE HYPERX PULSEFIRE DART RGB.jpg" class="card-img-top" alt=" contiene Mouse HyperX Pulsfire DART RGB">
+                    <div class="card-body">
+                        <p class="card-text text-white-50 description"> ofrece seis botones programables. Personalizá tu juego y adaptá el mouse a tus necesidades.</p>
+                      <h5 class="text-primary">Precio: <span class="precio">$ 21990</span></h5>
+                      <div class="d-grid gap-2">
+                      <button class="btn btn-primary button">Añadir a carrito</button>
+                    </div>
+                    </div>
+                 </div>
+              </div>
+                             
+              <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                    <h5 class="card-title pt-2 text-center text-primary">Mouse Logitech G pro superlight </h5>
+                    <img src="./img/mouse.jpg" class="card-img-top" alt=" contiene Mouse Logitech G pro superlight">
+                    <div class="card-body">
+                        <p class="card-text text-white-50 description">Elimina todos los obstáculos para ganar con nuestro mouse inalámbrico PRO más ligero y rápido.</p>
+                      <h5 class="text-primary">Precio: <span class="precio">$ 35505</span></h5>
+                      <div class="d-grid gap-2">
+                      <button class="btn btn-primary button">Añadir a carrito</button>
+                    </div>
+                    </div>
+                 </div>
+              </div>
+              
+              <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                    <h5 class="card-title pt-2 text-center text-primary">Placa de red USB TP-LINK TX200U Plus AX1800 Dual Band</h5>
+                    <img src="./img/PLACA DE RED USB TP-LINK TX200U PLUS AX1800 DUAL BAND 2 ANTENAS.png" class="card-img-top" alt=" contiene Placa de red USB TP-LINK TX200U Plus AX1800 Dual Band">
+                    <div class="card-body">
+                        <p class="card-text text-white-50 description">Actualiza tu PC con la mejor conexión gracias a las bandas de 5GHz y 2,4GHz.</p>
+                      <h5 class="text-primary">Precio: <span class="precio">$ 15189</span></h5>
+                      <div class="d-grid gap-2">
+                      <button class="btn btn-primary button">Añadir a carrito</button>
+                    </div>
+                    </div>
+                 </div>
+              </div>
+
+              <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                    <h5 class="card-title pt-2 text-center text-primary">Parlante Genius SP-HF500A II Wood</h5>
+                    <img src="./img/PARLANTE GENIUS SP-HF500A II WOOD.jpg" class="card-img-top" alt=" contiene Parlante Genius SP-HF500A II Wood">
+                    <div class="card-body">
+                        <p class="card-text text-white-50 description"> potente rango medio y altavoces de calidad ultra-alta.</p>
+                      <h5 class="text-primary">Precio: <span class="precio">$ 21888</span></h5>
+                      <div class="d-grid gap-2">
+                      <button class="btn btn-primary button">Añadir a carrito</button>
+                    </div>
+                    </div>
+                 </div>
+              </div>
+            
+              <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                    <h5 class="card-title pt-2 text-center text-primary">Placa de video Geforce RTX 3070TI Tuf Gaming</h5>
+                    <img src="./img/placa.jpg" class="card-img-top" alt=" contiene Placa de video Geforce RTX 3070TI Tuf Gaming">
+                    <div class="card-body">
+                        <p class="card-text text-white-50 description">diseño centrado en el rendimiento que mantiene lo esencial para realizar cualquier tarea.</p>
+                      <h5 class="text-primary">Precio: <span class="precio">$ 284186</span></h5>
+                      <div class="d-grid gap-2">
+                      <button class="btn btn-primary button">Añadir a carrito</button>
+                    </div>
+                    </div>
+                 </div>
+              </div>
+              
+              <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                    <h5 class="card-title pt-2 text-center text-primary">Mouse Razer Deathadder Essential</h5>
+                    <img src="./img/Mouse Razer DEATHADDER ESSENTIAL.jpg" class="card-img-top" alt="Contiene Mouse Razer Deathadder Essential">
+                    <div class="card-body">
+                        <p class="card-text text-white-50 description">Heredero de la galardonada ergonomía del DeathAdder.</p>
+                      <h5 class="text-primary">Precio: <span class="precio">$ 11749</span></h5>
+                      <div class="d-grid gap-2">
+                      <button class="btn btn-primary button">Añadir a carrito</button>
+                    </div>
+                    </div>
+                 </div>
+              </div>
+              
+              <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                    <h5 class="card-title pt-2 text-center text-primary">Teclado REDRAGON Horus K619 RGB RED Switch</h5>
+                    <img src="./img/TECLADO REDRAGON HORUS K619 RGB RED SWITCH.png" class="card-img-top" alt="Contiene Teclado REDRAGON Horus K619 RGB RED Switch">
+                    <div class="card-body">
+                        <p class="card-text text-white-50 description">Disfrutá de tus partidas en otro nivel con Redragon.</p>
+                      <h5 class="text-primary">Precio: <span class="precio">$ 22999</span></h5>
+                      <div class="d-grid gap-2">
+                      <button class="btn btn-primary button">Añadir a carrito</button>
+                    </div>
+                    </div>
+                 </div>
+              </div>
+
+              <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                    <h5 class="card-title pt-2 text-center text-primary">Water Cooler Cooler Master ML240L V2 RGB</h5>
+                    <img src="./img/WATER COOLER COOLER MASTER ML240L V2 RGB.png" class="card-img-top" alt=" Contiene Water Cooler Cooler Master ML240L V2 RGB">
+                    <div class="card-body">
+                        <p class="card-text text-white-50 description">Área de superficie ampliada en el radiador, Sellado reforzado para la prevención antifugas.</p>
+                      <h5 class="text-primary">Precio: <span class="precio">$ 37232</span></h5>
+                      <div class="d-grid gap-2">
+                      <button class="btn btn-primary button">Añadir a carrito</button>
+                    </div>
+                    </div>
+                 </div>
+              </div>
+
+              <div class="col d-flex justify-content-center mb-4">
+                <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                    <h5 class="card-title pt-2 text-center text-primary">Webcam Logitech c922 Pro Stream USB AMR</h5>
+                    <img src="./img/WEBCAM LOGITECH C922 PRO STREAM USB AMR.png" class="card-img-top" alt=" Webcam Logitech c922 Pro Stream USB AMR">
+                    <div class="card-body">
+                        <p class="card-text text-white-50 description">Conexión extremadamente nítida en directo.</p>
+                      <h5 class="text-primary">Precio: <span class="precio">$ 27919</span></h5>
+                      <div class="d-grid gap-2">
+                      <button class="btn btn-primary button">Añadir a carrito</button>
+                    </div>
+                    </div>
+                 </div>
+              </div>
+            
+            
+            
+
+            </div>
+
+        </div>
+        
+        <!-- Carrito -->
+        <div class="tab-pane fade carrito" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+            <br>
+            
+
+            <table class="table table-dark table-hover">
+                <thead>
+                  <tr class="text-primary">
+                    <th scope="col">#</th>
+                    <th scope="col">Productos</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Cantidad</th>
+                  </tr>
+                </thead>
+                <tbody class="tbody">
+                
+
+                </tbody>
+              </table>
+              <br><br>
+              <div class="row mx-4"> 
+                <div class="col">
+                    <h3 class="itemCartTotal text-white">Total :0</h3>
+                </div>
+                    <div class="col d-flex justify-content-end">
+                    <button class="btn btn-success">COMPRAR</button>
+                </div>
+              </div>
+
+        </div>
+        
+        <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...</div>
+      </div>
+
+    
+<footer class="bg-dark p-3 mt-5">
+  
+  <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108977.03828706787!2d-64.194344!3d-31.3994532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432985f478f5b69%3A0xb0a24f9a5366b092!2zQ8OzcmRvYmE!5e0!3m2!1ses-419!2sar!4v1669786262356!5m2!1ses-419!2sar" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  
+  <nav class="navbar background_co">
+      <div class="container background_co">
+        <a class="navbar-brand" href="https://www.facebook.com/">
+          <img src="./img/facebook.png" alt="Contiene Logo de facebook" width="30" height="30">
+        </a>
+
+        <a class="navbar-brand" href="https://web.whatsapp.com/">
+          <img src="./img/whatsapp.png" alt="Contiene Logo de whastapp" width="30" height="30">
+        </a>
+
+        <a class="navbar-brand" href="https://www.instagram.com/">
+          <img src="./img/instagram.png" alt="Contiene Logo de instagram" width="30" height="30">
+        </a>
+        
+      </div>
+    </nav>
+
+
+
+
+
+    <p class="text-center m-0 text-muted">GB - FENRIR TECH</p>
+</footer>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
